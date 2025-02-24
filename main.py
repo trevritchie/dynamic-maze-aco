@@ -10,7 +10,7 @@ def main():
     
     # Dynamic maze settings
     WALL_CHANGE_INTERVAL = 60   # How often walls can change (frames between changes)
-    WALL_CHANGE_PROBABILITY = 0.01  # Chance of each wall changing when update occurs
+    WALL_CHANGE_PROBABILITY = 0.03  # Chance of each wall changing when update occurs
     
     # Simulation settings
     FPS = 15            # Frames per second (lower = slower simulation)
@@ -19,7 +19,7 @@ def main():
     # ACO (Ant Colony Optimization) parameters
     PHEROMONE_STRENGTH = 0.6    # Pheromone strength
     GOAL_INFLUENCE = 5.0        # Weight of goal direction in movement decisions
-    PHEROMONE_INFLUENCE = 0.4   # Weight of pheromone trails in movement decisions
+    PHEROMONE_INFLUENCE = 0.3   # Weight of pheromone trails in movement decisions
     BACKTRACK_PENALTY = 0.1     # Penalty for reversing direction (lower = stronger penalty)
 
     config = {
