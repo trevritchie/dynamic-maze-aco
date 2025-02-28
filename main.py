@@ -14,13 +14,13 @@ def main():
     
     # Simulation settings
     FPS = 15            # Frames per second (lower = slower simulation)
-    SIMULATION_TIME = 20  # Maximum time in seconds before simulation ends
+    SIMULATION_TIME = 30  # Maximum time in seconds before simulation ends
     
     # ACO (Ant Colony Optimization) parameters
     PHEROMONE_STRENGTH = 0.6    # Pheromone strength
-    GOAL_INFLUENCE = 5.0        # Weight of goal direction in movement decisions
+    GOAL_INFLUENCE = 4.0        # Weight of goal direction in movement decisions
     PHEROMONE_INFLUENCE = 0.3   # Weight of pheromone trails in movement decisions
-    BACKTRACK_PENALTY = 0.1     # Penalty for reversing direction (lower = stronger penalty)
+    BACKTRACK_PENALTY = 0.05    # Penalty for reversing direction (lower = stronger penalty)
 
     config = {
         # Simulation settings
